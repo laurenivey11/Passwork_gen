@@ -9,6 +9,8 @@ A password generator that allows the user to customize their random password.
 * JavaScript
 
 ## Website
+https://laurenivey11.github.io/Passwork_gen/
+
 
 ##Contribution
 Made with ❤️ by Lauren Ivey
