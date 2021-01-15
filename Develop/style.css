@@ -30,7 +30,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
-.card {
+.wrapper {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
@@ -72,7 +72,7 @@ header {
   clear: both;
 }
 
-form {
+.form {
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 3rem;
@@ -107,7 +107,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#passwordDisplay {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -135,7 +135,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #passwordDisplay {
     font-size: 1rem;
   }
 }
