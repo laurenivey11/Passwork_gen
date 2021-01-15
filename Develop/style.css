@@ -30,16 +30,6 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
-.form {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 20px;
-}
-.checks {
-  padding: 10px;
-}
-
-
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -80,6 +70,16 @@ header {
   content: " ";
   display: block;
   clear: both;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 3rem;
+  row-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .btn {
